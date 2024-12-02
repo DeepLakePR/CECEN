@@ -1,0 +1,108 @@
+header{
+    padding: 40px 15px;
+    /* backdrop-filter: blur(2px); */
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/****/
+/* Header Left */
+header .header-left{
+    position: absolute;
+    max-width: 6%;
+}
+
+header .header-left img.header-logo{
+    width: 100%;
+    filter: invert(1);
+}
+
+/****/
+/* Header Right */
+header .header-right{
+    width: 100%;
+    text-align: center;
+}
+
+header .header-right ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    width: 100%;
+}
+
+header .header-right a{
+    color: white;
+    margin: 0 15px;
+    padding: 0 8px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-weight: 600;
+}
+
+/* Header Navigation */
+header nav li {
+    margin: 0 10px;
+    transition: all 0.25s ease-in-out;
+}
+
+header nav li a {
+    color: white;
+    font-size: 18px;
+    font-family: 'Argentum Sans', sans-serif;
+    font-weight: 300;
+    transition: all 0.25s ease-in-out;
+    position: relative;
+}
+
+header li.navigation-selected a {
+    color: #ccc;
+}
+
+header nav li a,
+header nav li a:after,
+header nav li a:before {
+    transition: all .5s;
+    border-radius: 5px;
+}
+
+header nav li a:after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #ccc;
+    margin: 0 auto;
+}
+
+/* Header Navigation Animations */
+header nav li:not(.navigation-selected) a:after {
+    width: 0px;
+}
+
+header nav li a:hover {
+    color: #ccc;
+}
+
+header nav li:not(.navigation-selected) a:hover:after {
+    animation: fill 0.65s forwards;
+    -webkit-animation: fill 0.65s forwards;
+    -moz-animation: fill 0.65s forwards;
+}
+
+@keyframes fill {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
