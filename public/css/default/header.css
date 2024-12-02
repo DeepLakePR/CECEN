@@ -1,3 +1,7 @@
+:root{
+    --header-navigation-selected-li: #d6d6d6;
+}
+
 header{
     padding: 40px 15px;
     /* backdrop-filter: blur(2px); */
@@ -61,7 +65,7 @@ header nav li a {
 }
 
 header li.navigation-selected a {
-    color: #ccc;
+    color: var(--header-navigation-selected-li);
 }
 
 header nav li a,
@@ -78,7 +82,7 @@ header nav li a:after {
     left: 0;
     right: 0;
     height: 2px;
-    background: #ccc;
+    background: var(--header-navigation-selected-li);
     margin: 0 auto;
 }
 
@@ -88,7 +92,7 @@ header nav li:not(.navigation-selected) a:after {
 }
 
 header nav li a:hover {
-    color: #ccc;
+    color: var(--header-navigation-selected-li);
 }
 
 header nav li:not(.navigation-selected) a:hover:after {
