@@ -1,6 +1,13 @@
 $(()=>{
 
     /////////////
+    // Join Us Offers Section
+    const JoinUsOffersSection = $('section.join-us');
+    const OfferCustomInput = JoinUsOffersSection.find('input#join-us-offer-custom-input');
+
+    OfferCustomInput.mask('R$000,00');
+
+    /////////////
     // Contact Section
     const ContactSection = $('section.contact');
     const HoverButtons = ContactSection.find('div a, div i');
