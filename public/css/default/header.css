@@ -110,3 +110,53 @@ header nav li:not(.navigation-selected) a:hover:after {
         width: 100%;
     }
 }
+
+/****************************/
+/* Responsive */
+@media screen and (max-width: 955px){
+
+    header .header-right a{
+        padding: 0 6px;
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    header{
+        padding: 8px;
+    }
+
+    header .container{
+        flex-direction: column;
+    }
+
+    header .header-left{
+        position: static;
+        max-width: 12%;
+    }
+
+    header .header-right ul{
+        flex-direction: column;
+    }
+
+    header .header-right ul li{
+        margin: 5px 0;
+    }
+
+    header .header-right a{
+        padding: 0 6px;
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 468px){
+
+    header .header-left{
+        max-width: 30%;
+        margin-bottom: 15px;
+    }
+
+}

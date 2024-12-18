@@ -81,3 +81,13 @@
 .gallery__fade {
     transition: all ease 0.3s;
 }
+
+/****************************/
+/* Responsive */
+@media screen and (max-width: 468px){
+    
+    .footer__redes-wrapper {
+        gap: 15px;
+    }
+
+}

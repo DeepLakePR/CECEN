@@ -1,10 +1,10 @@
 /*****/
 /* Apresentation CTA Section */
-section.apresentation-cta{
+section.apresentation-cta {
     min-height: 100%;
 }
 
-section.apresentation-cta img.apresentation-bg{
+section.apresentation-cta img.apresentation-bg {
     position: absolute;
     inset: 0;
     z-index: -1;
@@ -13,20 +13,20 @@ section.apresentation-cta img.apresentation-bg{
     object-fit: cover;
 }
 
-section.apresentation-cta .container{
+section.apresentation-cta .container {
     text-align: center;
     color: white;
     padding: 135px 0;
 }
 
-section.apresentation-cta .container h1{
+section.apresentation-cta .container h1 {
     font-size: 50px;
     font-weight: 300;
     letter-spacing: 9px;
     margin-bottom: 20px;
 }
 
-section.apresentation-cta .container .apresentation-cta-button{
+section.apresentation-cta .container .apresentation-cta-button {
     padding: 1px;
     width: 30%;
     margin: 0 auto;
@@ -36,40 +36,41 @@ section.apresentation-cta .container .apresentation-cta-button{
     transition: all 0.4s ease-in-out;
 }
 
-section.apresentation-cta .container a{
+section.apresentation-cta .container a {
     font-size: 40px;
     font-weight: 300;
-    letter-spacing: 9px;   
+    letter-spacing: 9px;
 }
 
-section.apresentation-cta .container .apresentation-cta-button:hover{
+section.apresentation-cta .container .apresentation-cta-button:hover {
     background: white;
     color: black;
 }
 
 /*****/
 /* Know Us Section */
-section.know-us .container{
+section.know-us .container {
     padding: 0;
     display: flex;
 }
 
-section.know-us .know-us-image{
+section.know-us .know-us-image {
     width: 40%;
 }
 
-section.know-us .know-us-image img{
+section.know-us .know-us-image img {
     max-width: 100%;
     border-radius: 15px;
+    object-fit: cover;
 }
 
-section.know-us .know-us-text{
+section.know-us .know-us-text {
     width: 60%;
     padding: 30px;
     padding-right: 50px;
 }
 
-section.know-us .know-us-text h2{
+section.know-us .know-us-text h2 {
     border-bottom: 2px solid black;
     display: inline-block;
     margin-bottom: 15px;
@@ -78,35 +79,35 @@ section.know-us .know-us-text h2{
     font-size: 30px;
 }
 
-section.know-us .know-us-text p{
+section.know-us .know-us-text p {
     margin-bottom: 9px;
     letter-spacing: 1.4px;
 }
 
 /*****/
 /* Join Us Section */
-section.join-us{
+section.join-us {
     margin: 30px 0;
     padding: 30px 0;
-    border-top: 1px solid rgba(0,0,0,0.2);
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-section.join-us .container{
+section.join-us .container {
     text-align: center;
 }
 
-section.join-us .container h2{
+section.join-us .container h2 {
     font-size: 30px;
     text-transform: uppercase;
 }
 
-section.join-us .container > p{
+section.join-us .container>p {
     font-size: 20px;
     letter-spacing: 1.4px;
 }
 
-section.join-us div.join-us-offers{
+section.join-us div.join-us-offers {
     padding: 20px;
     margin: 10px;
     display: flex;
@@ -115,22 +116,23 @@ section.join-us div.join-us-offers{
     justify-content: center;
 }
 
-section.join-us div.join-us-offers .join-us-offers-single{
+section.join-us div.join-us-offers .join-us-offers-single {
     background: #f3f3f3;
-    width: calc(33.3% - 20px); /* Margin x2 */
+    width: calc(33.3% - 20px);
+    /* Margin x2 */
     padding: 25px 15px;
     margin: 10px;
-    box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
 }
 
-section.join-us div.join-us-offers .join-us-offers-single p{
+section.join-us div.join-us-offers .join-us-offers-single p {
     font-size: 20px;
     letter-spacing: 1.4px;
     margin-bottom: 12px;
 }
 
-section.join-us div.join-us-offers .join-us-offers-single a{
+section.join-us div.join-us-offers .join-us-offers-single a {
     border: 1px solid rgb(51, 51, 51);
     border-radius: 5px;
     padding: 4px 16px;
@@ -138,12 +140,12 @@ section.join-us div.join-us-offers .join-us-offers-single a{
     letter-spacing: 1.4px;
 }
 
-section.join-us div.join-us-offers .join-us-offers-single a:hover{
+section.join-us div.join-us-offers .join-us-offers-single a:hover {
     background: rgb(51, 51, 51);
     color: white;
 }
 
-section.join-us div.join-us-offers .join-us-offers-single input{
+section.join-us div.join-us-offers .join-us-offers-single input {
     text-align: center;
     border: none;
     border: 1px solid rgb(51, 51, 51);
@@ -154,21 +156,21 @@ section.join-us div.join-us-offers .join-us-offers-single input{
     margin-bottom: 10px;
 }
 
-section.join-us div.join-us-offers .join-us-offers-single input::placeholder{
+section.join-us div.join-us-offers .join-us-offers-single input::placeholder {
     transition: all 0.3s ease-in-out;
 }
 
-section.join-us div.join-us-offers .join-us-offers-single input:focus{
+section.join-us div.join-us-offers .join-us-offers-single input:focus {
     outline: none;
     background: rgb(51, 51, 51);
     color: white;
 }
 
-section.join-us div.join-us-offers .join-us-offers-single input:focus::placeholder{
+section.join-us div.join-us-offers .join-us-offers-single input:focus::placeholder {
     color: white;
 }
 
-section.join-us div.join-us-offers .join-us-offers-single:last-child{
+section.join-us div.join-us-offers .join-us-offers-single:last-child {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -178,7 +180,7 @@ section.join-us div.join-us-offers .join-us-offers-single:last-child{
 
 /*****/
 /* Contact Section */
-section.contact .container{
+section.contact .container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -186,7 +188,7 @@ section.contact .container{
     max-width: none;
 }
 
-section.contact .container h2{
+section.contact .container h2 {
     width: 100%;
     text-align: center;
     font-size: 30px;
@@ -194,7 +196,7 @@ section.contact .container h2{
     text-transform: uppercase;
 }
 
-section.contact .container div{
+section.contact .container div {
     flex: 0 0 50%;
     text-align: center;
     padding-top: 50px;
@@ -209,17 +211,267 @@ section.contact .container div{
     transition: all 0.4s ease-in-out;
 }
 
-section.contact .container div i{
+section.contact .container div i {
     margin-bottom: 10px;
     cursor: pointer;
     font-size: 35px;
 }
 
 section.contact .container div a,
-section.contact .container div i{
+section.contact .container div i {
     transition: all 0.4s ease-in-out;
 }
 
-section.contact .container div.contact-active-hover{
-    box-shadow: inset 0px -25px 0 0 rgba(0,0,0,0.2);
+section.contact .container div.contact-active-hover {
+    box-shadow: inset 0px -25px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+/****************************/
+/* Responsive */
+@media screen and (max-width: 1160px) {
+
+    section.apresentation-cta .container h1 {
+        font-size: 38px;
+    }
+
+    section.apresentation-cta .container .apresentation-cta-button {
+        width: 50%;
+        padding: 8px 0;
+    }
+
+    section.apresentation-cta .container .apresentation-cta-button a {
+        font-size: 30px;
+    }
+
+    /* Know Us */
+    section.know-us .know-us-text {
+        padding: 8px 16px;
+    }
+
+}
+
+@media screen and (max-width: 955px) {
+
+    /* Apresentation */
+    section.apresentation-cta {
+        min-height: 85%;
+    }
+
+    section.apresentation-cta .container {
+        padding: 80px 0;
+    }
+
+    /* Know Us */
+    section.know-us .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    section.know-us .know-us-image {
+        width: 70%;
+        height: 20%;
+    }
+
+    section.know-us .know-us-image img {
+        height: 100%;
+    }
+
+    section.know-us .know-us-text {
+        width: 85%;
+    }
+
+    section.know-us .know-us-text h2 {
+        font-size: 20px;
+    }
+
+    section.know-us .know-us-text p {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Apresentation */
+    section.apresentation-cta {
+        min-height: 75%;
+    }
+
+    section.apresentation-cta .container {
+        padding: 30px 0;
+    }
+
+    section.apresentation-cta .container h1 {
+        font-size: 28px;
+    }
+
+    section.apresentation-cta .container .apresentation-cta-button {
+        width: 75%;
+        padding: 10px 0;
+    }
+
+    section.apresentation-cta .container .apresentation-cta-button a {
+        font-size: 25px;
+    }
+
+    section.apresentation-cta img.apresentation-bg {
+        height: 600px;
+    }
+
+}
+
+@media screen and (max-width: 656px){
+
+    /* Contact */
+    section.contact .container {
+        padding: 25px 0;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+
+    /* Apresentation */
+    section.apresentation-cta .container {
+        padding: 40px 0;
+    }
+
+    section.apresentation-cta .container h1 {
+        font-size: 20px;
+        letter-spacing: 5px;
+        margin: 0 5px;
+        margin-bottom: 9px;
+    }
+
+    section.apresentation-cta .container .apresentation-cta-button {
+        width: 80%;
+        padding: 8px 0;
+    }
+
+    section.apresentation-cta .container .apresentation-cta-button a {
+        font-size: 20px;
+    }
+
+    /* Join Us */
+    section.join-us {
+        margin: 15px 0;
+        padding: 15px 0;
+    }
+
+    section.join-us .container h2 {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    section.join-us .container>p {
+        font-size: 18px;
+    }
+
+    section.join-us div.join-us-offers {
+        padding: 10px;
+        margin: 5px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    section.join-us div.join-us-offers .join-us-offers-single {
+        width: 100%;
+    }
+
+    /* Contact */
+    section.contact .container h2 {
+        font-size: 22px;
+    }
+
+    section.contact .container div {
+        padding-top: 40px;
+        padding-bottom: 60px;
+        min-height: 125px;
+    }
+
+    section.contact .container p {
+        font-size: 18px;
+    }
+
+    section.contact .container div.contact-active-hover {
+        box-shadow: inset 0px -15px 0 0 rgba(0, 0, 0, 0.2)
+    }
+
+}
+
+@media screen and (max-width: 468px) {
+
+    /* Apresentation */
+    section.apresentation-cta .container .apresentation-cta-button {
+        width: 92%;
+        padding: 10px 4px;
+        border-radius: 8px;
+    }
+
+    section.apresentation-cta .container .apresentation-cta-button a {
+        font-size: 16px;
+        letter-spacing: 5px;
+    }
+
+    /* Join Us */
+    section.join-us .container>p{
+        font-size: 17px;
+    }
+
+    section.join-us div.join-us-offers .join-us-offers-single p{
+        font-size: 16px;
+    }
+
+    section.join-us div.join-us-offers .join-us-offers-single a{
+        padding: 3px 10px;
+        font-size: 15px;
+    }
+
+    section.join-us div.join-us-offers .join-us-offers-single input{
+        padding: 4px 10px;
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+
+    /* Know Us */
+    section.know-us .know-us-text h2{
+        margin-top: 15px;
+    }
+
+    section.know-us .know-us-text{
+        padding: 0 4px;
+        width: 93%;
+    }
+    
+    /* Join Us */
+    section.join-us div.join-us-offers .join-us-offers-single input{
+        width: 90%;
+    }
+
+    /* Contact */
+    section.contact .container {
+        padding: 15px 0;
+    }
+
+    section.contact .container h2 {
+        font-size: 19px;
+    }
+
+    section.contact .container div {
+        padding-top: 30px;
+        padding-bottom: 45px;
+        min-height: 100px;
+    }
+
+    section.contact .container p {
+        font-size: 16px;
+    }
+
 }
