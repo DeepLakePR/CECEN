@@ -1,6 +1,15 @@
 $(()=>{
 
     /////////////
+    // CTA Know Us Scroll
+    const CTA_KnowUs = $('#scroll-cta-know-us');
+
+    CTA_KnowUs.on('click', (event)=>{
+        scrollTo({ 'top': $('section.know-us').position().top - 150, 'behavior': 'smooth' })
+
+    });
+
+    /////////////
     // Join Us Offers Section
     const JoinUsOffersSection = $('section.join-us');
     const OfferCustomInput = JoinUsOffersSection.find('input#join-us-offer-custom-input');
