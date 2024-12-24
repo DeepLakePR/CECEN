@@ -406,6 +406,10 @@ section.contact .container div.contact-active-hover {
 @media screen and (max-width: 468px) {
 
     /* Apresentation */
+    section.apresentation-cta {
+        min-height: 60%;
+    }
+
     section.apresentation-cta .container .apresentation-cta-button {
         width: 92%;
         padding: 10px 4px;
