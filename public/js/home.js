@@ -1,6 +1,20 @@
 $(()=>{
 
     /////////////
+    // Header Scroll
+    const Buttons = $('header nav li');
+
+    Buttons.each((_, button)=>{
+
+        $(button).click(()=>{
+
+            scroll({top: $($(button).attr('scroll-target')).position().top - 100, behavior: 'smooth'});
+
+        });
+
+    });
+
+    /////////////
     // CTA Know Us Scroll
     const CTA_KnowUs = $('#scroll-cta-know-us');
 
